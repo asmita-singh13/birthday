@@ -19,3 +19,6 @@ const countdownFunction = setInterval(() => {
         document.getElementById("countdown").innerHTML = "I love You!";
     }
 }, 1000);
+function flipCard(card) {
+    card.classList.toggle('flip');
+}
