@@ -13,7 +13,7 @@ const countdownFunction = setInterval(() => {
     document.getElementById("countdown").innerHTML = 
         `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
-    // If the countdown is over, display a message
+    
     if (distance < 0) {
         clearInterval(countdownFunction);
         document.getElementById("countdown").innerHTML = "I love You!";
