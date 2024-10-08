@@ -9,7 +9,6 @@
 <body>
     <audio autoplay loop>
         <source src="hbd.mp3" type="audio/mpeg"> 
-        
     </audio>
     <header>
         <h1>Happy Birthday, Anurag!</h1>
@@ -24,22 +23,81 @@
         </section>
         
         <section class="gallery">
-            <h2>Wish we would re-create all of these!</h2>
-            <img src="him1.jpg" alt="Memory 1">
-            <img src="him2.jpg" alt="Memory 2">
-            <img src="him3.jpg" alt="Memory 3">
-            <img src="him4.jpg" alt="Memory 4">
-            <img src="him5.jpg" alt="Memory 5">
-            <img src="him6.jpg" alt="Memory 6">
+            <h2 class="gallery-heading">Wish we would re-create all of these!</h2>
+            
+            
+            <!-- Flip Cards Section -->
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him1.jpg" alt="Memory 1">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Joyeux anniversaire!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him2.jpg" alt="Memory 2">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>¡Feliz cumpleaños!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him3.jpg" alt="Memory 3">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Alles Gute zum Geburtstag!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him4.jpg" alt="Memory 4">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Buon compleanno!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him5.jpg" alt="Memory 5">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Otanjoubi Omedetou!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="him6.jpg" alt="Memory 6">
+                    </div>
+                    <div class="flip-card-back">
+                        <p>Feliz aniversário!</p>
+                    </div>
+                </div>
+            </div>
+           
         </section>
         
         <section class="wishes">
             <h2>Something special for you!</h2>
             
             <ul>
-                <li>Friend 1: Happy Birthday Baby!</li>
-                <li>Friend 2: Wishing you all the best!</li>
-                <li>Family Member: Love you lots!</li>
+                <a href="hisvid.html" class="link">Just give a watch!</a>
+
+                
             </ul>
         </section>
     </main>
