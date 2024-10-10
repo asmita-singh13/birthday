@@ -51,7 +51,11 @@ footer {
     display: flex;
     flex-wrap: wrap;
 }
-
+.message{
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff;
+}
 
 
 
